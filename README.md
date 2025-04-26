@@ -1,7 +1,7 @@
 
 This repository serves as a Minimal Reproducible Example (MRE) for a reported bug in .NET MAUI's `CarouselView` where setting the `IsSwipeEnabled` property to `False` prevents visual navigation when the `Position` property is updated programmatically, specifically on the Windows platform.
 
-This MRE is linked to GitHub Issue #29216 where the problem is reported and discussed in detail.
+This MRE is linked to GitHub Issue [#29216](https://github.com/dotnet/maui/issues/29216) where the problem is reported and discussed in detail.
 
 ## Problem Description
 
@@ -54,6 +54,6 @@ On Windows, with `IsSwipeEnabled="False"`, updating `CarouselView.Position` via 
 
 **Related GitHub Issue:**
 
-This MRE is the reproduction project for Issue #29216 in the dotnet/maui repository. Please refer to that issue for detailed discussion, logs, and visual evidence (GIFs).
+This MRE is the reproduction project for Issue [#29216](https://github.com/dotnet/maui/issues/29216) in the dotnet/maui repository. Please refer to that issue for detailed discussion, logs, and visual evidence (GIFs).
 
-*(Note: This issue might be related to #29215, which reports a distinct problem involving a `TwoWay` binding loop on the `Position` property with implicit or explicit `IsSwipeEnabled=True`.)*
+*(Note: This issue might be related to [#29215](https://github.com/dotnet/maui/issues/29215), which reports a distinct problem involving a `TwoWay` binding loop on the `Position` property with implicit or explicit `IsSwipeEnabled=True`.)*
